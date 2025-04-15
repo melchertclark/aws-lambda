@@ -21,7 +21,7 @@ else
     echo "⚠️ Function not found. Creating it..."
     aws lambda create-function \
         --function-name $LAMBDA_NAME \
-        --runtime python3.11 \
+        --runtime python3.13 \
         --role $ROLE_ARN \
         --handler $HANDLER \
         --zip-file fileb://package.zip \
