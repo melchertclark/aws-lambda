@@ -1,0 +1,4 @@
+build/
+.venv/
+package.zip
+.DS_Store
